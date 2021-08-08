@@ -1,4 +1,4 @@
-# MechaCar_Statistical_Analysis
+# MechaCar Statistical Analysis
 Statistical Analysis with R 
 
 ## Background
