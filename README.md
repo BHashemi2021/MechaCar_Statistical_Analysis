@@ -41,8 +41,7 @@ Using R linear regression function ln(), we called the variables into th formula
 • Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
     Interestingly, the intercept (p-value=5.08e-08) has a significant p-value too. This indicates that aside from vehicle_length and ground_clearance, there might be at least another variable that could affect mpg. 
 
-#### Summary
-By at least tow variables (vehicle_length and ground_clearance) having significant p-values, we could reject the null hypothesis and state that the slope in the model is not zero. The manufacturer could transform, scale or optimize these two variables as they could affect mpg. In conclusion, it seems the linear model did not fully predict mpg as the intercept also had a significant p-value.
+In summary, by at least tow variables (vehicle_length and ground_clearance) having significant p-values, we could reject the null hypothesis and state that the slope in the model is not zero. As these two metrics could affect mpg, the manufacturer could transform or scale them to optimize the final product. In conclusion, it seems the linear model did not fully predict mpg as the intercept also had a significant p-value.
 
 
 
@@ -80,16 +79,24 @@ As the design specifications for the MechaCar suspension coils dictate that the 
 ------------------------------
 
 
-
-
 ## T-Tests on Suspension Coils
+
+
+
+#### Figure 6:  
+------------------------------
+![3.0.png]()
+
+------------------------------
+
+
 briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
 •	An RScript is written for t-test that compares all manufacturing lots against mean PSI of the population (5 pt)
 •	An RScript is written for three t-tests that compare each manufacturing lot against mean PSI of the population (10 pt)
 •	There is a summary of the t-test results across all manufacturing lots and for each lot (5 pt)
 
 
-#### Figure 6: 
+#### Figure 7: 
 ------------------------------
 ![3.1.png](https://github.com/BHashemi2021/MechaCar_Statistical_Analysis/blob/main/Resources/images/3.1.png)
 
