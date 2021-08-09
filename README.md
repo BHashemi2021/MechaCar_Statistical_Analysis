@@ -85,7 +85,7 @@ As the design specifications for the MechaCar suspension coils dictate that the 
 
 #### Figure 6:  
 ------------------------------
-![3.0.png]()
+![3.0.png](https://github.com/BHashemi2021/MechaCar_Statistical_Analysis/blob/main/Resources/images/3.0.png)
 
 ------------------------------
 
