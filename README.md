@@ -47,9 +47,34 @@ By at least tow variables (vehicle_length and ground_clearance) having significa
 
 ## Summary Statistics on Suspension Coils 
 write a short summary detailing and interpreting the suspension coil summary statistics.
-using screenshots from your total_summary and lot_summary dataframes, 
-address the following question:
+
+
+#### Figure 3: Suspension coils
+
+------------------------------
+![2.1.png](https://github.com/BHashemi2021/MechaCar_Statistical_Analysis/blob/main/Resources/images/2.1.png)
+
+------------------------------
+
+
+
+#### Figure 4: The total summary of suspension coils
+
+------------------------------
+![2.2.png](https://github.com/BHashemi2021/MechaCar_Statistical_Analysis/blob/main/Resources/images/2.2.png)
+
+------------------------------
+
+
+
 •	The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+
+#### Figure 5: Lot summary
+------------------------------
+![2.3.png](https://github.com/BHashemi2021/MechaCar_Statistical_Analysis/blob/main/Resources/images/2.3.png)
+
+------------------------------
 
 •	The Suspension_Coil.csv file is imported and read into a dataframe (5 pt)
 •	An RScript is written to create a total summary dataframe that has the mean, median, variance, and standard deviation of the PSI for all manufacturing lots (10 pt)
@@ -59,11 +84,17 @@ address the following question:
 
 
 ## T-Tests on Suspension Coils
-In your README, create a subheading ## T-Tests on Suspension Coils, then briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
+briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
 •	An RScript is written for t-test that compares all manufacturing lots against mean PSI of the population (5 pt)
 •	An RScript is written for three t-tests that compare each manufacturing lot against mean PSI of the population (10 pt)
 •	There is a summary of the t-test results across all manufacturing lots and for each lot (5 pt)
 
+
+#### Figure 6: 
+------------------------------
+![3.1.png](https://github.com/BHashemi2021/MechaCar_Statistical_Analysis/blob/main/Resources/images/3.1.png)
+
+------------------------------
 
 
 ## Study Design: MechaCar vs Competition
