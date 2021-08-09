@@ -28,12 +28,20 @@ This new assignment consists of three technical analysis deliverables and a prop
 
 Deliverable 1 
 ## Linear Regression to Predict MPG
-In this analysis we used MechaCar_mpg.csv file containing data with six variables as shown in Figure 1.
+In this analysis we used MechaCar_mpg.csv dataset contains mpg test results for 50 prototype MechaCars. The MechaCar prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics, such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance, were collected for each vehicle. The MechaCar_mpg.csv file containing six variables is shown in Figure 1.
 
 #### Figure 1: 
 
 ------------------------------
 ![1.1.png](https://github.com/BHashemi2021/MechaCar_Statistical_Analysis/blob/main/Resources/images/1.1.png)
+
+------------------------------
+Using the linear regression function in R ln(), we called the variables into th formula and calculated the coefficients for each variable as shown in Figure 2.
+
+#### Figure 2: 
+
+------------------------------
+![1.2.png](https://github.com/BHashemi2021/MechaCar_Statistical_Analysis/blob/main/Resources/images/1.2.png)
 
 ------------------------------
 
