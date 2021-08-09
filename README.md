@@ -56,7 +56,7 @@ To manouver around ground_clearance variable, the MechCar automaker needs to eva
 
 ------------------------------
 
-The mean of suspension coils PSI metric is 1498.78  (+/- SD = 7.9). The summary table calculated from the available suspension coil lots will be very helpful to choose the ones that provide the company design standards (Figure 4).
+The mean of suspension coils PSI metric is 1498.78  (SD = ±7.9). The summary table calculated from the available suspension coil lots will be very helpful to choose the ones that provide the company design standards (Figure 4).
 
 #### Figure 4: The total summary of suspension coils
 
