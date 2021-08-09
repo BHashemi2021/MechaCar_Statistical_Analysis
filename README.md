@@ -83,7 +83,7 @@ As the design specifications for the MechaCar suspension coils dictate that the 
 A summary t-test was performed on the suspension coil PSIs metric to determine the population mean across all available manufacturing lots and provide a source to compare other lots with this metric (Figure 6). 
 H0 was regarded as the state where the PSI of suspension coils is not different from each other.
 
-It seems that the population p-value (0.06) for PSIs across all lots is not significant and therefor H0 could not be rejected. 
+It seems that the PSI population mean across all lots is not significant (p-value = 0.06), and therefor, H0 could not be rejected. 
 
 
 #### Figure 6:  
@@ -93,7 +93,7 @@ It seems that the population p-value (0.06) for PSIs across all lots is not sign
 ------------------------------
 
 
-A closer look at the p-values for Lots 1 to 3 (Figure 7), indicates that Lot 1 (p-value = 1) and Lot 2 (p-value = 0.6) have p-values greater than study significance level of 0.05, and therefore, their PSIs are not different from each other. On the other hand the p-value for Lot 3 is statistically significant, indicating Lot 3 has a meaningfully different PSI than the other two lots. Lot 3 showed, for the second time that is out of the MechaCar design standards and study level of significance.
+A closer look at the p-values for Lots 1 to 3 (Figure 7), indicates that Lot 1 (p-value = 1) and Lot 2 (p-value = 0.6) have p-values greater than study significance level of 0.05, and therefore, their PSIs are not different from each other. On the other hand the p-value for Lot 3 is statistically significant, indicating Lot 3 has a meaningfully different PSI than the other two lots. Lot 3 showed, for the second time that is out of the MechaCar design standards (great variance in PSI) and study level of significance.
 
 
 #### Figure 7: 
@@ -105,21 +105,25 @@ A closer look at the p-values for Lots 1 to 3 (Figure 7), indicates that Lot 1 (
 
 ## Study Design: MechaCar vs Competition
 
+
 1.	Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-2.	In your description, address the following questions:
+
+Preparing for a hupothetical competition, the MechaCar manufacturing could evaluate some other metrics to improve its products. As an example highway vs city fuel efficeincey in a classs of cars. Emissions could  a second metric to work on.
+
+
+3.	In your description, address the following questions:
 •	What metric or metrics are you going to test?
+Highway mileage per galon o (HMPG) would be tested across different classes of cars.
+
+
 •	What is the null hypothesis or alternative hypothesis?
+The H0 or null hypothesis is that different classes of cars do not have different fuel efficincies.
+
 •	What statistical test would you use to test the hypothesis? And why?
+For the fuel efficiency we could use a one-way analysis of variance (ANOVA) that takes care of a dependent variable (HMPG) vs classes of cars (independent variables). 
+
 •	What data is needed to run the statistical test?
-
-
-
-
-
-•	A metric to be tested is mentioned (5 pt)
-•	A null hypothesis or an alternative hypothesis is described (5 pt)
-•	A statistical test is described to test the hypothesis (5 pt)
-•	The data for the statistical test is described (5 pt)
+For this study we will need highway fuel consumption across different classes of cars, specifically showing the number of cylinders, weight of the cars, number of seats, and other metrics as discussed earlier.
 
 
 #### Software Employed
