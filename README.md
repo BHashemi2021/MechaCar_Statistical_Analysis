@@ -44,7 +44,6 @@ Using R linear regression function ln(), we called the variables into th formula
 In summary, by at least tow variables (vehicle_length and ground_clearance) having significant p-values, we could reject the null hypothesis and state that the slope in the model is not zero. As these two metrics could affect mpg, the manufacturer could transform or scale them to optimize the final product. In conclusion, it seems the linear model did not fully predict mpg as the intercept also had a significant p-value.
 
 
-
 ## Summary Statistics on Suspension Coils 
 To manouver around ground_clearance variable, the MechCar automaker needs to evaluate suspension coils provided from different suspension manufacturers to choose the ones that satisfy the design standards of the company. Figure 3 shows a sample of suspension coils available.
 
@@ -93,7 +92,8 @@ A summary t-test was performed on the suspension coil PSIs metric to determine t
 ------------------------------
 
 
-Reviewing the p-values for Lot 1 to Lot 3 (Figure 7), indicates that Lot 1 and 2 have p-values greater than study significance level of 0.05 and therefore they are similar to each other. On the other hand the p-value for Lot 3 is statistically significant, indicating Lot 3 has a meaningfully different PSI and should be avoided. The Lot 3 showed for the second tme that is out of the MechaCar design standards and study level of significance.
+
+Reviewing the p-values for Lot 1 to Lot 3 (Figure 7), indicates that Lot 1 and 2 have p-values greater than study significance level of 0.05. On the other hand the p-value for Lot 3 is statistically significant, indicating Lot 3 has a meaningfully different PSI than the other two lots. The Lot 3 showed for the second time that is out of the MechaCar design standards and study level of significance.
 
 
 #### Figure 7: 
