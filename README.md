@@ -21,7 +21,8 @@ In this analysis we used MechaCar_mpg.csv dataset containing MPG test results fo
 
 ------------------------------
 Having satisfied the assumptions for a linear regression analysis we set the study hypothesis as follows:
-H<sub>0<sub/> : The slope of the linear model is zero (m = 0) and no significant linear relationship exists between MPG and any of study variables.
+H<sub>0<sub/> 
+  The slope of the linear model is zero (m = 0) and no significant linear relationship exists between MPG and any of study variables.
 
 Using R linear regression function ln(), we called the variables into th formula and calculated coefficient for each variable as shown in Figure 2.
 
