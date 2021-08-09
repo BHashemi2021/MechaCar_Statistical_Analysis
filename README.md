@@ -21,17 +21,20 @@ In this analysis, we will help Jeremy and the data analytics team by performing 
 
  
 ## Linear Regression to Predict MPG
-In this analysis we used MechaCar_mpg.csv dataset containing MPG test results for 50 prototype MechaCars. The MechaCar prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics, such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance, were collected for each vehicle. The MechaCar_mpg.csv file containing six variables is shown in Figure 1.
+In this analysis we used MechaCar_mpg.csv dataset containing MPG test results for 50 prototype MechaCars. The MechaCar prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics, such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance, were collected for each vehicle. The six variables of MechaCar_mpg.csv file are shown in Figure 1.
 
-#### Figure 1: 
+#### Figure 1: MechaCar_mpg.csv dataset and its variables at a glance
 
 ------------------------------
 ![1.1.png](https://github.com/BHashemi2021/MechaCar_Statistical_Analysis/blob/main/Resources/images/1.1.png)
 
 ------------------------------
-Using the linear regression function in R ln(), we called the variables into th formula and calculated the coefficients for each variable as shown in Figure 2.
+Having satisfied the assumptions for a linear regression analysis we set the study hypothesis as follows:
+H0: The slope of the linear model is zero (m = 0) and no significant linear relationship exists between MPG and any of study variables.
 
-#### Figure 2: 
+Using R linear regression function ln(), we called the variables into th formula and calculated coefficient for each variable as shown in Figure 2.
+
+#### Figure 2: The Calculated coefficient for each variable in the proposed linear regression model
 
 ------------------------------
 ![1.2.png](https://github.com/BHashemi2021/MechaCar_Statistical_Analysis/blob/main/Resources/images/1.2.png)
@@ -39,14 +42,16 @@ Using the linear regression function in R ln(), we called the variables into th 
 ------------------------------
 
 •	Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-•	Is the slope of the linear model considered to be zero? Why or why not?
-•	Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+    By significantly low p-values, vehicle_length (p-value=2.60e-12), and ground_clearance (p-value=5.21e-08) could provide nonrandom amount of variance to the mpg in this study.
 
-•	The MechaCar_mpg.csv file is imported and read into a dataframe (5 pt)
-•	An RScript is written for a linear regression model to be performed on all six variables (10 pt)
-•	An RScript is written to create the statistical summary of the linear regression model with the intended p-values (10 pt)
-•	There is a summary that addresses all three questions (5 pt)
+• Is the slope of the linear model considered to be zero? Why or why not?
+    Considering the significant p-values for at least two variables indicate that the slope of the linear regression is not zero and the two could provide variance to mpg in a non-random fashion.
 
+• Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+    Interestingly, the intercept (p-value=5.08e-08) has a significant p-value too. This indicates that aside from vehicle_length and ground_clearance, there might be at least another variable that could affect mpg. 
+
+#### Summary
+By at least tow variables (vehicle_length and ground_clearance) having significant p-values, we could reject the null hypothesis and state that the slope in the model is not zero. The manufacturer could transform, scale or optimize these aforesaid two variables as they could affect mpg. In conclusion, it seems the linear model did not fully predict mpg as the intercept also had a significant p-value.
 
 
 Deliverable 2
