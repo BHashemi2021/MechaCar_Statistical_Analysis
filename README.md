@@ -93,7 +93,7 @@ A summary t-test was performed on the suspension coil PSIs metric to determine t
 
 
 
-Reviewing the p-values for Lot 1 to Lot 3 (Figure 7), indicates that Lot 1 and 2 have p-values greater than study significance level of 0.05. On the other hand the p-value for Lot 3 is statistically significant, indicating Lot 3 has a meaningfully different PSI than the other two lots. The Lot 3 showed for the second time that is out of the MechaCar design standards and study level of significance.
+Reviewing the p-values for Lot 1 to Lot 3 (Figure 7), indicates that Lot 1 (p-value = 1) and 2 (p-value = 0.6) have p-values greater than study significance level of 0.05, and therefore, their PSIs are not different from each other. On the other hand the p-value for Lot 3 is statistically significant, indicating Lot 3 has a meaningfully different PSI than the other two lots. The Lot 3 showed for the second time that is out of the MechaCar design standards and study level of significance.
 
 
 #### Figure 7: 
