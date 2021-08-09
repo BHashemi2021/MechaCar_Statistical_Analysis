@@ -45,8 +45,9 @@ Using R linear regression function ln(), we called the variables into th formula
 By at least tow variables (vehicle_length and ground_clearance) having significant p-values, we could reject the null hypothesis and state that the slope in the model is not zero. The manufacturer could transform, scale or optimize these two variables as they could affect mpg. In conclusion, it seems the linear model did not fully predict mpg as the intercept also had a significant p-value.
 
 
+
 ## Summary Statistics on Suspension Coils 
-write a short summary detailing and interpreting the suspension coil summary statistics.
+To manouver around ground_clearance variable, the MechCar automaker needs to evaluate suspension coils provided from different suspension manufacturers to choose the ones that satisfy the design standards of the company. Figure 3 shows a sample of suspension coils available.
 
 
 #### Figure 3: Suspension coils
@@ -56,7 +57,7 @@ write a short summary detailing and interpreting the suspension coil summary sta
 
 ------------------------------
 
-
+The mean of suspension coils PSI metric is 1498.78  (+/- SD = 7.9). The summary table calculated from the available suspension coil lots will be very helpful to choose the ones that provide the company design standards (Figure 4).
 
 #### Figure 4: The total summary of suspension coils
 
@@ -65,9 +66,11 @@ write a short summary detailing and interpreting the suspension coil summary sta
 
 ------------------------------
 
+• Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+    The suspension coils from three manufacturing lots seem to meet those standards as their mean is or is close to 1500 PSI.
 
-
-•	The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+To summarize:
+As the design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Moreover, we had earlier noticed (Figure 4), that the "variance" of the suspension coils could be tolerated at around 62 PSI. Adding the variance of 170 to a mean of 1496 PSI from the third manufacturing lot, renders this lot outside the expected range of MechaCars standard design for suspension coils.
 
 
 #### Figure 5: Lot summary
@@ -76,10 +79,6 @@ write a short summary detailing and interpreting the suspension coil summary sta
 
 ------------------------------
 
-•	The Suspension_Coil.csv file is imported and read into a dataframe (5 pt)
-•	An RScript is written to create a total summary dataframe that has the mean, median, variance, and standard deviation of the PSI for all manufacturing lots (10 pt)
-•	An RScript is written to create a lot summary dataframe that has the mean, median, variance, and standard deviation for each manufacturing lot (10 pt)
-•	There is a summary that addresses the design specification requirement for all the manufacturing lots and each lot individually (5 pt)
 
 
 
