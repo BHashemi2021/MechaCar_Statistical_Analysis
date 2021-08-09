@@ -45,7 +45,6 @@ Using R linear regression function ln(), we called the variables into th formula
 By at least tow variables (vehicle_length and ground_clearance) having significant p-values, we could reject the null hypothesis and state that the slope in the model is not zero. The manufacturer could transform, scale or optimize these aforesaid two variables as they could affect mpg. In conclusion, it seems the linear model did not fully predict mpg as the intercept also had a significant p-value.
 
 
-Deliverable 2
 ## Summary Statistics on Suspension Coils 
 write a short summary detailing and interpreting the suspension coil summary statistics.
 using screenshots from your total_summary and lot_summary dataframes, 
@@ -59,7 +58,6 @@ address the following question:
 
 
 
-Deliverable 3
 ## T-Tests on Suspension Coils
 In your README, create a subheading ## T-Tests on Suspension Coils, then briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
 •	An RScript is written for t-test that compares all manufacturing lots against mean PSI of the population (5 pt)
@@ -67,9 +65,6 @@ In your README, create a subheading ## T-Tests on Suspension Coils, then briefly
 •	There is a summary of the t-test results across all manufacturing lots and for each lot (5 pt)
 
 
-
-Deliverable 4
-After you’ve completed the technical analysis for each deliverable, provide a short summary of the results in the README.md of the analysis. For the final deliverable, you’ll write up a short description of the study design for additional statistical analysis. In the written summaries, we would like you to think critically about your analysis, not demonstrate mastery of automotive manufacturing.
 
 ## Study Design: MechaCar vs Competition
 1.	Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
@@ -79,6 +74,10 @@ After you’ve completed the technical analysis for each deliverable, provide a 
 •	What statistical test would you use to test the hypothesis? And why?
 •	What data is needed to run the statistical test?
 
+
+(((((After you’ve completed the technical analysis for each deliverable, provide a short summary of the results in the README.md of the analysis. For the final deliverable, you’ll write up a short description of the study design for additional statistical analysis. In the written summaries, we would like you to think critically about your analysis, not demonstrate mastery of automotive manufacturing.)))))
+
+
 •	A metric to be tested is mentioned (5 pt)
 •	A null hypothesis or an alternative hypothesis is described (5 pt)
 •	A statistical test is described to test the hypothesis (5 pt)
@@ -86,7 +85,8 @@ After you’ve completed the technical analysis for each deliverable, provide a 
 
 
 #### Software Employed
-  * R x64 4.1.0 (2021-05-18)
+  * R (x64, 4.1.0)
+  * RStudio for Windows 
   * Microsoft csv files (x64, 2016)
  
   
