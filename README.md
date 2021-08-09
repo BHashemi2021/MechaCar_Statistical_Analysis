@@ -80,9 +80,10 @@ As the design specifications for the MechaCar suspension coils dictate that the 
 
 ## T-Tests on Suspension Coils
 
-A summary t-test was performed on the suspension coil PSIs metric to determine the population mean across all available manufacturing lots and provide a source to compare other lots with this metric (Figure 6). As noticed, the population p-value (0.06) for PSI is not significant (H0 could not be rejected). 
+A summary t-test was performed on the suspension coil PSIs metric to determine the population mean across all available manufacturing lots and provide a source to compare other lots with this metric (Figure 6). 
+H0 was regarded as the state where the PSI of suspension coils is not different from each other.
 
-
+It seems that the population p-value (0.06) for PSIs across all lots is not significant and therefor H0 could not be rejected. 
 
 
 #### Figure 6:  
@@ -92,8 +93,7 @@ A summary t-test was performed on the suspension coil PSIs metric to determine t
 ------------------------------
 
 
-
-Reviewing the p-values for Lot 1 to Lot 3 (Figure 7), indicates that Lot 1 (p-value = 1) and 2 (p-value = 0.6) have p-values greater than study significance level of 0.05, and therefore, their PSIs are not different from each other. On the other hand the p-value for Lot 3 is statistically significant, indicating Lot 3 has a meaningfully different PSI than the other two lots. The Lot 3 showed for the second time that is out of the MechaCar design standards and study level of significance.
+A closer look at the p-values for Lots 1 to 3 (Figure 7), indicates that Lot 1 (p-value = 1) and Lot 2 (p-value = 0.6) have p-values greater than study significance level of 0.05, and therefore, their PSIs are not different from each other. On the other hand the p-value for Lot 3 is statistically significant, indicating Lot 3 has a meaningfully different PSI than the other two lots. Lot 3 showed, for the second time that is out of the MechaCar design standards and study level of significance.
 
 
 #### Figure 7: 
