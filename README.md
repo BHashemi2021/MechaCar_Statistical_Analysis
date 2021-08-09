@@ -81,7 +81,7 @@ As the design specifications for the MechaCar suspension coils dictate that the 
 
 ## T-Tests on Suspension Coils
 
-A summary t-test was performed on the suspension coil PSIs metric to determine the population mean across all available manufacturing lots and provide a source to compare other lots with this metric (Figure 6). As noticed in population t-test, the p-value for PSI is not significant (H0 is not rejected) implying that suspension lots have similar PSIs. 
+A summary t-test was performed on the suspension coil PSIs metric to determine the population mean across all available manufacturing lots and provide a source to compare other lots with this metric (Figure 6). As noticed in population t-test, the p-value for PSI is not significant (H0 is rejected) implying that suspension lots have similar PSIs. 
 
 
 
