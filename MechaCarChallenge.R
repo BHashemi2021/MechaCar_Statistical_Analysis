@@ -40,5 +40,20 @@ lot_summary
 
 
 # Deliverable 3
+# T-tests against population mean of 1500 PSI
+t.test(Suspension_Coil$PSI, mu=1500)
+
+lot1 <- Suspension_Coil %>% subset(Manufacturing_Lot=="Lot1")
+t.test1 = t.test(lot1$PSI, mu=1500)
 
 
+lot2 <- Suspension_Coil %>% subset(Manufacturing_Lot=="Lot2")
+t.test2 = t.test(lot2$PSI, mu=1500)
+
+
+lot3 <- Suspension_Coil %>% subset(Manufacturing_Lot=="Lot3")
+t.test3 = t.test(lot3$PSI, mu=1500)
+
+t.test1 
+t.test2  
+t.test3
