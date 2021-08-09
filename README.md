@@ -37,7 +37,7 @@ Using R linear regression function ln(), we called the variables into th formula
 #### Figure 2: The Calculated coefficient for each variable in the proposed linear regression model
 
 ------------------------------
-![1.2.png](https://github.com/BHashemi2021/MechaCar_Statistical_Analysis/blob/main/Resources/images/1.2.png)
+![1.3.png](https://github.com/BHashemi2021/MechaCar_Statistical_Analysis/blob/main/Resources/images/1.3.png)
 
 ------------------------------
 
