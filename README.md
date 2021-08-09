@@ -42,7 +42,7 @@ Using R linear regression function ln(), we called the variables into th formula
     Interestingly, the intercept (p-value=5.08e-08) has a significant p-value too. This indicates that aside from vehicle_length and ground_clearance, there might be at least another variable that could affect mpg. 
 
 #### Summary
-By at least tow variables (vehicle_length and ground_clearance) having significant p-values, we could reject the null hypothesis and state that the slope in the model is not zero. The manufacturer could transform, scale or optimize these aforesaid two variables as they could affect mpg. In conclusion, it seems the linear model did not fully predict mpg as the intercept also had a significant p-value.
+By at least tow variables (vehicle_length and ground_clearance) having significant p-values, we could reject the null hypothesis and state that the slope in the model is not zero. The manufacturer could transform, scale or optimize these two variables as they could affect mpg. In conclusion, it seems the linear model did not fully predict mpg as the intercept also had a significant p-value.
 
 
 ## Summary Statistics on Suspension Coils 
