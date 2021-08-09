@@ -81,6 +81,9 @@ As the design specifications for the MechaCar suspension coils dictate that the 
 
 ## T-Tests on Suspension Coils
 
+A summary t-test was performed on the suspension coil PSIs metric to determine the population mean across all available manufacturing lots and provide a source to compare other lots with this metric (Figure 6). As noticed in population t-test, the p-value for PSI is not significant (H0 is not rejected) implying that suspension lots have similar PSIs. 
+
+
 
 
 #### Figure 6:  
@@ -90,10 +93,7 @@ As the design specifications for the MechaCar suspension coils dictate that the 
 ------------------------------
 
 
-briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
-•	An RScript is written for t-test that compares all manufacturing lots against mean PSI of the population (5 pt)
-•	An RScript is written for three t-tests that compare each manufacturing lot against mean PSI of the population (10 pt)
-•	There is a summary of the t-test results across all manufacturing lots and for each lot (5 pt)
+Reviewing the p-values for Lot 1 to Lot 3 (Figure 7), indicates that Lot 1 and 2 have p-values greater than study significance level of 0.05 and therefore they are similar to each other. On the other hand the p-value for Lot 3 is statistically significant, indicating Lot 3 has a meaningfully different PSI and should be avoided. The Lot 3 showed for the second tme that is out of the MechaCar design standards and study level of significance.
 
 
 #### Figure 7: 
@@ -104,6 +104,7 @@ briefly summarize your interpretation and findings for the t-test results. Inclu
 
 
 ## Study Design: MechaCar vs Competition
+
 1.	Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
 2.	In your description, address the following questions:
 •	What metric or metrics are you going to test?
@@ -112,7 +113,7 @@ briefly summarize your interpretation and findings for the t-test results. Inclu
 •	What data is needed to run the statistical test?
 
 
-(((((After you’ve completed the technical analysis for each deliverable, provide a short summary of the results in the README.md of the analysis. For the final deliverable, you’ll write up a short description of the study design for additional statistical analysis. In the written summaries, we would like you to think critically about your analysis, not demonstrate mastery of automotive manufacturing.)))))
+
 
 
 •	A metric to be tested is mentioned (5 pt)
